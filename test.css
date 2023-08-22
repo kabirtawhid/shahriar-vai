@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Top Section*/
+
+#top {
+    background-image: url("assets/bni1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.top-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    padding-top: 32px;
+}
+
+.container-fluid {
+    width: 960px;
+}
+
+.menu ul li {
+    margin: 0px 16px;
+}
+
+.menu ul li:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.menu ul li a {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.bannerText {
+    color: #fff;
+    text-align: center;
+    padding: 60px 198px 173px 198px;
+    Position: relative;
+}
+
+.bannerText h1 {
+    font-size: 40px;
+}
+
+.bannerText p {
+    font-size: 13px;
+    padding: 25px 88px;
+}
+
+.banBtn a {
+    border: 1px solid #fb414e;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0px 10px;
+}
+
+.banBtn a:nth-child(1) {
+    background-color: #fb414e;
+    padding: 10px 30px;
+}
+
+
+/*Servic Short Section*/
+
+.serviceShort-area {
+    margin-top: -60px;
+    position: relative;
+}
+
+.serviceShort-item {
+    Background-color: #fb414e;
+    padding: 35px 30px;
+    color: #fff;
+    text-align: left;
+    width: 297px;
+    height: 290 px;
+    padding-top: 50px;
+    font-size: 12px;
+}
+
+.serviceShort-item h5 {
+    margin-top: 25px;
+    font-size: 1.1rem;
+}
+
+.serviceShort-item h5::after {
+    content: " ";
+    position: relative;
+    width: 50px;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin: 20px 0 16px 0;
+    ;
+}
+
+.shortItem2 {
+    background-color: #202b30;
+}
+
+
+/*Buisness Plan Section*/
+
+#businessPlan {
+    background-color: #202b30;
+    margin: 50px;
+}
+
+.businessPlan-area {
+    padding: 45px 0;
+    position: relative;
+    margin: 0 80px;
+}
+
+.new {
+    float: lright;
+}
+
+.businessPlan-area img {
+    width: 190px;
+    height: 260px;
+}
+
+.businessPlanContant {
+    color: #fff;
+    padding-right: 50px;
+}
+
+.businessPlanContant h2 {
+    font-size: 30px;
+}
+
+.businessPlanContant p {
+    margin: 40px 0;
+    font-size: 12px;
+}
+
+.businessPlanContant a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.businessPlanImage {
+    text-align: center;
+}
+
+
+/*service section*/
+
+#service {
+    background-color: #f8f8f8;
+    margin: 50px;
+    color: #1f1f1f;
+    padding: 55px 0;
+}
+
+#service p {
+    color: #6f6f6f;
+    font-size: 12px;
+}
+
+.serviceM {
+    margin: 0px 150px;
+}
+
+.serviceP {
+    padding-right: 30px;
+}
+
+#service h2 {
+    padding-bottom: 23px;
+}
+
+.serviceR {
+    padding-top: 25px;
+}
+
+.serviceR1 {
+    padding-top: 10px
+}
+
+
+/* wol Mix section*/
+
+#idiMix {
+    margin: 0 50px;
+    text-align: center;
+}
+
+.imageArea img {
+    /* fixed
+    width: 310px;
+    height: 230px; */
+    margin-bottom: 10px;
+}
+
+.idiMixManu ul li a {
+    text-decoration: none;
+    color: #6f6f6f;
+}
+
+.idiMixManu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+/**Claint section**/
+
+#claints {
+    margin: 45px 50px;
+    background-color: #f8f8f8;
+    color: #1f1f1f;
+    padding: 0px 0px;
+}
+
+.imgSize img {
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+}
+
+.claintsLeft h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.claintsLeft p {
+    margin: 30px 0px 40px 0px;
+}
+
+.claintsLeft a {
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+
+/* Bootstrap overwrite*/
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.margin-bottom {
+    margin-bottom: 1.8rem;
+}
+
+.col {
+    flex-grow: 0;
+}
+
+.rowCenter {
+    justify-content: center;
+}
